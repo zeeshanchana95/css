@@ -1,0 +1,82 @@
+body {
+    padding: 10%;
+    font-size: 1rem;
+
+    
+    /* font-family: serif; defaut, we see on academic papers, newspapers*/
+
+    /* font-family: sans-serif; used on the web*/
+
+    /* font-family: monospace; it has same spacing for every character*/
+
+    /* font-family:cursive; */
+
+    /* font-family: fantasy; */
+
+    /* font-family: 'Courier New', Courier, monospace; 
+    here, 'Courier New' is the first choice, then 'Courier', and then for monospace*/
+
+    /* font-family: Arial, Helvetica, sans-serif;
+    more often we see on the web, commonly installed on mac and windows, linux
+    */
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+    /* font-family: 'Times New Roman', Times, serif; looks like of default font in browsers*/
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* input, button {
+    font:inherit;
+} */
+
+p {
+    /* text-decoration: underline; */
+
+    /* text-decoration: overline; */
+
+    /* text-decoration: line-through; */
+
+    /* text-decoration: none; */
+
+    /* text-transform: capitalize;  */
+
+    /* text-transform: uppercase; */
+
+    /* text-align: left; normally used in papers in schools or offices*/
+
+    /* text-align: justify; used in newspapers or magazines */
+
+    /* text-justify: right; */
+
+    /* text-indent: 2em; */
+
+    /* line-height: 1.2 default; */
+
+    /* line-height: 1.5; increases readability */
+
+    line-height: 1.5;
+
+    /* letter-spacing: 0.1em; add spacing between each letter */
+
+    /* word-spacing: 0.1em; */
+
+    /* font-weight: 300; normal */
+
+    /* font-weight: normal; */
+
+    /* font-weight:lighter; */
+
+    /* font-weight: bolder; */
+
+    /* font-weight: 100; */
+
+    /* font-weight: 900; */
+
+    /* font-style: italic; */
+
+    /* font-style: oblique; little bit more emphasis on italicizing text */
+
+    /* font-style: normal; default */
+}
