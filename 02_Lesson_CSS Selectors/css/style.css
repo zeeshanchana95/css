@@ -1,0 +1,50 @@
+/* * {
+    font-family: monospace;
+    border: 1px solid red;  
+} */
+
+html {
+    font-size: 16px;
+}
+
+/* body{
+    
+} */
+
+main {
+    font-family: monospace;
+}
+h1, h2{
+    color:blue;
+}
+
+
+
+.gray {
+    color:gray;
+}
+ 
+p{
+    color:purple;
+}
+
+p {
+    color: red;
+}
+
+.hightlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* p span{
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+
+
+#second {
+    font-style: italic;
+}
+
