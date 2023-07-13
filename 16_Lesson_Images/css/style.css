@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {display: block;}
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+  white-space: nowrap;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px
+}
+
+/* End Utility Classes */
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+/* 
+  background-image: url("../img/bubbles.png"), linear-gradient(to left,steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
+  background-position: right center;
+  background-size: 20% auto; */
+
+  /* Background short-hand peroperty */
+  background:repeat-y right center url("../img/bubbles.png"), no-repeat, linear-gradient(to left, steelblue, #fff);
+
+  /* how we can switch from one color to another */
+  /* background-image: linear-gradient(steelblue, #fff); */
+  
+  /* background-image: linear-gradient(to right,steelblue, #fff); */
+  /* background-image: linear-gradient(to bottom,steelblue, #fff); */
+  /* background-image: linear-gradient(to top,steelblue, #fff); */
+  /* background-image: linear-gradient(steelblue, purple, #fff); */
+}
+
+.container {
+  background-color: rgb(251, 210, 150);
+  background-image: url('../img/map-2176x1451.png');
+  background-repeat: repeat;
+
+  /* what part of the image you want to display in the backgournd */
+
+  /* background-position: center center; */
+  /* background-position: top right; */
+  /* background-position: top left; */
+  /* background-position: bottom right; */
+  /* background-position: top right; */
+  background-position: top;
+  /* background-position: center ; */
+  /* background-position: bottom ; */
+  background-size: cover;
+
+}
+
+.hero {
+  border-bottom: 2px solid #000;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: hsla(0, 0%, 100%, 0.35);
+
+  /* background-color: rgb(251, 210, 150);
+  background-image: url('../img/map-2176x1451.png');
+  background-repeat: repeat;
+  background-size: cover; */
+
+  /* background-image: url('../img/pat1.png'); */
+  /* background-image: url('../img/pat2.png'); */
+  /* background-image: url('../img/pat2-transparency.png'); */
+  /* background-image: url('../img/scenic-2200x1331.png'); */
+  
+  /* background-repeat: no-repeat; */
+  /* repeat (default value) */
+  
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat-x; */
+
+  
+  /* background-size: contain; */
+
+}
+
+.h1 {
+  font-size: 500%;
+  color:aliceblue;
+  /*       x-axix y-axix  blur  color */
+  text-shadow: 2px 2px 5px #000;
+  /* background-color: hsla(0, 0%, 0%, 0.404);
+  padding: 0.25rem;
+  border-radius: 10px; */
+}
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
+.example img {
+  /* 25% of the container size */
+  width: 25%;
+  /* to make img responsive, set height auto */
+  height: auto;
+}
+
+.clip {
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
+  background-image: url("..//img/scenic-2200x1331.png");
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* color:hsla(0, 0%, 0%, 0.2); */
+  color:transparent
+}
